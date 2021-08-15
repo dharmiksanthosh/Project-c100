@@ -13,7 +13,7 @@ class Atm(object):
         print("You withdrawed: " + str(amount) + " Your remaining balance is " + str(new_amount))
     
 def main():
-    name = input("Hello what is your name?\n")
+    name = input("Hello, what is your name?\n")
     print("Hello, " + name)
     cardnumber = input("Enter Your card number: ")
     pin = stdiomask.getpass()
